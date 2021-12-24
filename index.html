@@ -9,19 +9,39 @@
     <link rel='alternate' type='application/rss+xml' title='Environment RSS' href='/rss.xml'>
 
     <!--Change the title and css link after this-->
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
     <title>Home</title>
   </head>
   
   <body>
     <header>
-	<h1>Reducing Your Carbon Footprint</h1>
+      <div class="title front">
+	<h1><span>Reducing Your Carbon Footprint</span></h1>
+      </div>
     </header>
-    <nav><ul><a href="index.html"><li>🏡 Home</li></a><a href="html/blog.html"><li>📜 Blog</li></a><a href="html/tips.html"><li>📚 Tips</li></a><a href="html/projects.html"><li> 🔨 Projects</li></a><a href="https://github.com/Xander-6085/SpringboroBPA2022"><li><img src="images/git.svg" alt="Github logo"> Code</li></a></ul></nav>
-    <main>
-	<h2>Helping the Environment</h2>
-	<p><i>Tommy writes stuff here, lmao nice</i></p>
-    </main>
-    <footer><a href="https://xander-6085.github.io/SpringboroBPA2022/">https://xander-6085.github.io/SpringboroBPA2022/</a>
+
+    <nav><ul class="front"><li><a href="index.html">Home</a></li><li><a href="html/blog.html">Blog</a></li><li><a href="html/tips.html">Tips</a></li><li><a href="html/projects.html">Projects</a></li><li><a href="https://github.com/Xander-6085/SpringboroBPA2022">Source</a></li></ul></nav>
+    <div class="bg1"></div>
+      <h2 class="t" style="margin-top: 50vh;">Sauvegarder l'environment</h2>
+    <div class="bg2"></div>
+      <h2 class="t" style="margin-top: 150vh;">Réduire le gaspillage</h2>
+    <div class="bg3"></div>
+      <h2 class="t" style="margin-top: 250vh;">Détuire l'IRS</h2>
   </body>
+  <script>
+    const checkpoint = 200;
+ 
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll <= checkpoint) {
+        opacity = 1 - currentScroll / checkpoint;
+      } else {
+        opacity = 0;
+      }
+      let top = document.querySelectorAll(".front");
+      for(var i = 0; i < top.length; i++){
+	top[i].style.opacity = opacity;
+      }
+    });
+  </script>
 </html> 
