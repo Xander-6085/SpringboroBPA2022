@@ -115,3 +115,20 @@ h2 {
 .blog {
 	margin-left: 2vw;
 }
+
+figure {
+	position: relative;
+	margin-left: 74vw;
+	width: 20vw;
+	bottom: 10vh;
+	height: 40vh;
+}
+
+figure img {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	line-height: 1.6;
+}
