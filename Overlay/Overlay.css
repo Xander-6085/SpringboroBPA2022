@@ -1,0 +1,277 @@
+@keyframes slidedown{
+    0%{-webkit-transform: rotate(0deg); top:0px}
+    25%{ -webkit-transform: rotate(59.0625deg); top:1px}
+    50%{ -webkit-transform: rotate(118.125deg); top:2px}
+    75%{ -webkit-transform: rotate(177.1875deg); top:3px}
+    100%{ -webkit-transform: rotate(236.25deg); top:4px}
+}
+@keyframes slideup{
+    0%{-webkit-transform: rotate(0deg); bottom:0px}
+    25%{ -webkit-transform: rotate(-59.0625deg); bottom:1px}
+    50%{ -webkit-transform: rotate(-118.125deg); bottom:2px}
+    75%{ -webkit-transform: rotate(-177.1875deg); bottom:3px}
+    100%{ -webkit-transform: rotate(-236.25deg); bottom:4px}
+}
+@keyframes fade{
+    0%{opacity:1;}
+    100%{ opacity:0;}
+}
+@keyframes fadeio1{
+    0%{opacity:0;}
+    100%{ opacity:1; top:30%;}
+}
+@keyframes fadeio2{
+    0%{opacity:0;}
+    100%{ opacity:1; top:40%;}
+}
+@keyframes fadeio3{
+    0%{opacity:0;}
+    100%{ opacity:1; top:50%;}
+}
+@keyframes fadeio4{
+    0%{opacity:0;}
+    100%{ opacity:1; top:60%;}
+}
+@keyframes fadeio5{
+    0%{opacity:0;}
+    100%{ opacity:1; top:70%;}
+}
+@keyframes fadeio6{
+    0%{opacity:0;}
+    100%{ opacity:1; top:80%;}
+}
+@keyframes fadeio7{
+    0%{opacity:0;}
+    100%{ opacity:1; top:90%;}
+}
+@keyframes fadeio8{
+    0%{opacity:0;}
+    100%{ opacity:1; top:6%;}
+}
+@keyframes swmove{
+    0%{left:0%; border-color:blue; background-color:rgb(39, 65, 168);}
+    100%{left:50%; border-color:green; background-color:rgb(54, 168, 39);}
+}
+@keyframes bcs{
+    0%{background-color:rgb(87, 110, 202);}
+    100%{background-color:rgb(107, 218, 93);}
+}
+@keyframes ftdm{
+    0%{}
+    100%{background-color:black;color:white;}
+}
+@keyframes ftlm{
+    0%{background-color:black;color:white;}
+    100%{}
+}
+.background{
+    position:fixed;
+    top:0px;
+    height:5%;
+    width:100%;
+    left:0;
+    background-color:white;
+    z-index:1;
+    border-color:gray;
+    
+}
+.bcs{
+    animation:bcs .5s linear;
+    animation-direction:alternate;
+    animation-iteration-count:2; 
+}
+.bg{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:0;
+    height:100%;
+    width:100%;
+    background-color: white;
+}
+.buttonmenutop{
+    margin-left:0px;
+    position: fixed;
+    background-color:white;
+    color:black;
+    left:-10%;
+    height:25%;
+    top:-25%;
+    width:101%;
+    border-color:gray;
+    border:solid;
+    border-width:1px;
+    text-align:inherit;
+    opacity:0;
+}
+.centerbar{
+    text-align:center;
+    position:fixed;
+    z-index:1;
+    left:0;
+    width:100%;
+    }
+    .darkmode{
+        color:white;
+        background-color:black;
+    }
+    .darkmodeb{
+        background-color:white;
+    }
+    .dma{
+        animation:ftdm .5s linear;
+        animation-iteration-count:2; 
+    }
+    .fade{
+        animation: fade .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio{
+        animation: fadeio1 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio2{
+        animation: fadeio2 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio3{
+        animation: fadeio3 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio4{
+        animation: fadeio4 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio5{
+        animation: fadeio5 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio6{
+        animation: fadeio6 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio7{
+        animation: fadeio7 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .fadeio8{
+        animation: fadeio8 .5s linear;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    .lma{
+        animation:ftlm .5s linear;
+        animation-iteration-count:2; 
+    }
+    .menuacess{
+        background-color:white;
+        padding:0px;
+        color:black;
+        right:0;
+        margin: inline 0px;
+        width:15px;
+        border:0px;
+        text-align:right;
+        position:fixed;
+        z-index:1;
+    }
+    .menuanimationa{
+        position:relative;
+        margin-bottom:1px;
+        margin-left:0px;
+        margin-right:0px;
+        width:13px;
+        height:3px;
+        background-color:black;
+        border-radius:2px;
+    }
+    .menuanimationb{
+        position:relative;   
+        margin-bottom:1px;
+        margin-left:0px;
+        margin-right:0px;
+        width:13px;
+        height:3px;
+        background-color:black;
+        border-radius:2px;
+    }
+    .menuanimationc{
+        position:relative;
+        margin-bottom:1px;
+        margin-left:0px;
+        margin-right:0px;
+        width:13px;
+        height:3px;
+        background-color:black;
+        border-radius:2px;
+    }
+    .menubuttons{
+        margin-left:0px;
+        position: fixed;
+        background-color:white;
+        color:black;
+        left:-10%;
+        height:10%;
+        width:120%;
+        border-color:gray;
+        border:solid;
+        border-width:1px;
+        text-align:center;
+        opacity:0;
+    }
+    .menubuttons:hover{
+        background-color:grey;
+    }
+    .placeholder{
+        margin-left:0px;
+        background-color:white;
+        left:0;
+        height:5%;
+        top:0;
+        width:100%;
+    }
+    .slidedown{
+        animation: slidedown .5s linear;
+        animation-iteration-count: 2;
+        animation-fill-mode:backwards;
+        animation-direction: alternate;
+    }
+    .slideup{
+        animation: slideup .5s linear;
+        animation-iteration-count: 2;
+        animation-fill-mode:backwards;
+        animation-direction: alternate;
+    }
+    .swc{
+        height:10px;
+        width:10px;
+        border-radius:5px;
+        border-color:blue;
+        border-width:1px;
+        background-color:rgb(39, 65, 168);
+        position:relative;
+    }
+    .swmove{
+        animation:swmove .5s linear;
+        animation-direction:alternate;
+        animation-iteration-count:2;
+    }
+    .switcher{
+        background-color:rgb(87, 110, 202);
+        width:30px;
+        height:20px;
+        border-radius:6px;
+        padding:3px;
+        position:sticky;
+        left:12%;
+        top:25%;
+        border-width:0;
+    }
