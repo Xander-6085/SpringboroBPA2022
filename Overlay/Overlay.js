@@ -91,21 +91,21 @@ if (mode2=='0'){
 }
 else if(mode2=='1'){
 
-    setTimeout(function(){bu1.classList.add('darkmode');},475);
-    setTimeout(function(){bu2.classList.add('darkmode');},475);
-    setTimeout(function(){bu3.classList.add('darkmode');},475);
-    setTimeout(function(){bu4.classList.add('darkmode');},475);
-    setTimeout(function(){bu5.classList.add('darkmode');},475);
-    setTimeout(function(){bu6.classList.add('darkmode');},475);
-    setTimeout(function(){bu7.classList.add('darkmode');},475);
-    setTimeout(function(){bu8.classList.add('darkmode');},475);
-    setTimeout(function(){div1.style.backgroundColor='white';},475);
-    setTimeout(function(){div2.style.backgroundColor='white';},475);
-    setTimeout(function(){div3.style.backgroundColor='white';},475);
-    setTimeout(function(){div4.classList.add('darkmode');},475);
-    setTimeout(function(){div5.classList.add('darkmode');},475);
-    setTimeout(function(){div6.classList.add('darkmode');},475);
-    setTimeout(function(){div7.classList.add('darkmode');},475);
+    bu1.classList.add('darkmode');
+    bu2.classList.add('darkmode');
+    bu3.classList.add('darkmode');
+    bu4.classList.add('darkmode');
+    bu5.classList.add('darkmode');
+    bu6.classList.add('darkmode');
+    bu7.classList.add('darkmode');
+    bu8.classList.add('darkmode');
+    div1.style.backgroundColor='white';
+    div2.style.backgroundColor='white';
+    div3.style.backgroundColor='white';
+    div4.classList.add('darkmode');
+    div5.classList.add('darkmode');
+    div6.classList.add('darkmode');
+    div7.classList.add('darkmode');
     sf();}
     else{localStorage.setItem('modes','1')}
 
