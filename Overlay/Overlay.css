@@ -177,7 +177,7 @@
         color:black;
         right:0;
         margin: inline 0px;
-        width:15px;
+        width:90%;
         border:0px;
         text-align:right;
         position:fixed;
@@ -185,31 +185,32 @@
     }
     .menuanimationa{
         position:relative;
-        margin-bottom:1px;
+        margin-bottom:1%;
+        margin-top:.5%;
         margin-left:0px;
         margin-right:0px;
-        width:13px;
-        height:3px;
+        width:86.66%;
+        height:32%;
         background-color:black;
         border-radius:2px;
     }
     .menuanimationb{
         position:relative;   
-        margin-bottom:1px;
+        margin-bottom:1%;
         margin-left:0px;
         margin-right:0px;
-        width:13px;
-        height:3px;
+        width:86.66%;
+        height:32%;
         background-color:black;
         border-radius:2px;
     }
     .menuanimationc{
         position:relative;
-        margin-bottom:1px;
+        margin-bottom:.5%;
         margin-left:0px;
         margin-right:0px;
-        width:13px;
-        height:3px;
+        width:86.66%;
+        height:32%;
         background-color:black;
         border-radius:2px;
     }
