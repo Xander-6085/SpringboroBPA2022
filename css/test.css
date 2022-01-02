@@ -57,7 +57,7 @@ ul li {
 }
 
 ul li:hover {
-	background-color: gray;
+	background-color: LightSteelBlue;
 	cursor: pointer;
 }
 .bg1 {
@@ -99,4 +99,16 @@ ul li:hover {
 	margin-left: 50vw;
 	transform: translate(-50%, -50%);
 	text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+}
+
+main {
+	margin-top: calc(15vh + 26px);
+	margin-left: 2vw;
+	margin-right: 2vw;
+	position: absolute;
+	background-color: lightgray;
+}
+
+h2 {
+	margin-left: 1vw;
 }
