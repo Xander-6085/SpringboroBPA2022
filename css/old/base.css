@@ -1,0 +1,36 @@
+html {
+	background-color: black;
+	color: white;
+}
+
+nav {
+	position: fixed;
+	right: 0px;
+	top: 0px; 
+	
+}
+
+li img, p img {
+        max-height: 1em ;
+        max-width: 1em ;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline;
+	border-radius: 10px;
+	padding: .5em;
+	max-width: 7em;
+}
+
+a {
+	color: turquoise;
+	text-decoration: none;
+}
