@@ -111,7 +111,11 @@ ul li:hover {
 	background-position: center center;
 	left: 95%;
 	top: 90%;
-	width: 7vh;
-	height: 7vh;
+	width: 6vh;
+	height: 6vh;
 	margin: 0;
+}
+
+.scrollUp:hover {
+	opacity: 75%;
 }
