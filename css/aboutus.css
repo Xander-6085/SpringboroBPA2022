@@ -1,0 +1,26 @@
+ul {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+ul li {
+        display: table-cell;
+        width: auto;
+        text-align: center;
+        border: solid;
+        border-width: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+main {
+        margin-top: 100vh;
+        margin-left: 0px;
+        position: absolute;
+        background-color: white;
+}
+
+h2 {
+	text-align: center;
+}
