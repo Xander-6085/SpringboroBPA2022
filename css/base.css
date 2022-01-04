@@ -100,3 +100,18 @@ ul li:hover {
 	transform: translate(-50%, -50%);
 	text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
 }
+
+.scrollUp {
+	background-color: transparent;
+	border: 0;
+	z-index: 100;
+	position: fixed;
+	background-image: url("../images/arrowbetter.png");
+	background-size: cover;
+	background-position: center center;
+	left: 95%;
+	top: 90%;
+	width: 7vh;
+	height: 7vh;
+	margin: 0;
+}
