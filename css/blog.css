@@ -1,10 +1,8 @@
-
 main {
-	margin-top: calc(15vh + 26px);
-	margin-left: 2vw;
-	margin-right: 2vw;
+	margin-top: 100vh;
+	margin-left: 0px;
 	position: absolute;
-	background-color: lightgray;
+	background-color: white;
 }
 
 h2 {
