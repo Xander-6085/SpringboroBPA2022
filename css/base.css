@@ -120,10 +120,11 @@ a {
 	width: 6vh;
 	height: 6vh;
 	margin: 0;
+	opacity: 50%;
 }
 
 .scrollUp:hover {
-	opacity: 75%;
+	opacity: 100%;
 }
 footer {
 	position: absolute;
