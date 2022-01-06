@@ -60,6 +60,7 @@ a {
 	border-width: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 1.5vh;
 }
 
 .nav li:hover {
@@ -121,7 +122,6 @@ a {
 	width: 55px;
 	height: 55px;
 	margin: 0;
-	opacity: 50%;
 }
 
 .scrollUp:hover {
