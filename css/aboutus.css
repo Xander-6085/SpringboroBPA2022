@@ -1,10 +1,10 @@
-ul {
+.people {
 	display: table;
 	table-layout: fixed;
 	width: 100%;
 }
 
-ul li {
+.people li {
         display: table-cell;
         width: auto;
         text-align: center;
