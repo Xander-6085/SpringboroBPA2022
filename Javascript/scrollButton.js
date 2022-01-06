@@ -7,7 +7,7 @@ let button = document.querySelector(".scrollUp");
 window.addEventListener("scroll", () => {
 	const currentScroll = window.pageYOffset;
     if (currentScroll >= bcheckpoint) {
-      button.style.opacity = "inherit";
+      button.style.opacity = "0.5";
     } else {
       button.style.opacity = "0";
     }
