@@ -18,16 +18,16 @@ body {
 	border: solid;
 	border-width: 0px;
 	line-height: 7.2vh;
-	z-index: 10;
-	
+	z-index: 10;	
 }
 
 header h1 {
 	text-align: center;
 	margin-top: 2.5vh;
-	margin-bottom: 1.5vh;
+	margin-bottom: 0px;
 	padding-bottom: 1vh;
 	height: 7vh;
+	font-size: 30px;
 	border-bottom: 1px solid;
 }
 
@@ -39,8 +39,8 @@ span {
 
 .nav {
 	width: 100vw;
+	margin-top: calc(10.5vh + 1px);
 	padding: 0;
-	margin-top: calc(12vh);
 	display: table;
 	position: fixed;
 	table-layout: fixed;
@@ -58,8 +58,8 @@ a {
 	text-align: center;
 	border: solid;
 	border-width: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 2.5vh;
+	padding-bottom: 2vh;
 	margin-bottom: 1.5vh;
 }
 
