@@ -1,0 +1,18 @@
+.proj1{ grid-area: proj1; background-image: url("../images/solar.jpeg"); background-size: cover;}
+.proj2{ grid-area: proj2; background-image: url("../images/solar.jpeg"); background-size: cover;}
+.proj3{ grid-area: proj3; background-image: url("../images/solar.jpeg"); background-size: cover;}
+.proj4{ grid-area: proj4; background-image: url("../images/solar.jpeg"); background-size: cover;}
+.proj5{ grid-area: proj5; background-image: url("../images/solar.jpeg"); background-size: cover;}
+.proj6{ grid-area: proj6; background-image: url("../images/solar.jpeg"); background-size: cover;}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'proj1 proj2 proj3'
+        'proj4 proj5 proj6'
+    ;
+    grid-gap: 5vw;
+    padding: 5vh 15vw 5vh 15vw;
+}
+

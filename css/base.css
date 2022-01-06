@@ -115,10 +115,11 @@ a {
 	background-image: url("../images/arrowbetter.png");
 	background-size: cover;
 	background-position: center center;
-	left: 95%;
-	top: 90%;
-	width: 6vh;
-	height: 6vh;
+	transform: translate(-50%,-50%);
+	left: 97vw;
+	top: 95vh;
+	width: 55px;
+	height: 55px;
 	margin: 0;
 	opacity: 50%;
 }
