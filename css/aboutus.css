@@ -26,5 +26,6 @@ h2 {
 }
 
 .bg1{
-        background-image: url("../images/Springboro_HS_Springboro_OH_USA.jfif");
+        background: linear-gradient(rgb(0,0,0,0.35),rgb(0,0,0,0.35)), url("../images/Springboro_HS_Springboro_OH_USA.jfif");
+        background-position: center;
 }
