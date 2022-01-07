@@ -48,9 +48,8 @@ span {
 	z-index: 10;
 }
 a {
-        color: black;
-        text-decoration: none;
-	width: 1em;
+    color: black;
+    text-decoration: none;
 }
 .nav li {
 	display: table-cell;
@@ -154,4 +153,13 @@ footer ul {
 
 footer p {
 	margin: 8px 0 0 0;
+}
+
+.button {
+	position: absolute;
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
 }
