@@ -1,6 +1,5 @@
 let button = document.querySelector(".scrollUp");
 let currentopacity = "0.5";
-let visible = false;
 const bcheckpoint = 750;
 
 //scroll to fuction
@@ -9,26 +8,24 @@ function scrollUp() {
     currentopacity = "0.5"
 }
 
-function hoverOpacity (direction) {
-    if(visible){
-	if(direction){
-            currentopacity = "1";
-	    button.style.opacity = currentopacity;
-	}
-        else {
-	    currentopacity = "0.5";
-	    button.style.opacity = "0.5";
-        }
-    }
-}
-
 window.addEventListener("scroll", () => {
-	const currentScroll = window.pageYOffset;
-    if (currentScroll >= bcheckpoint) {
-      button.style.opacity = currentopacity;
-      visible = true;
-    } else {
-      button.style.opacity = "0";
-      visible = false;
+    const currentScroll = window.pageYOffset;
+    button.style.opacity = currentScroll/bcheckpoint;
+    if((currentScroll/bcheckpoint) > 0.5){
+        button.style.opacity = currentopacity;
+    }
+});
+
+button.addEventListener("mouseenter", () => {
+    if(button.style.opacity > 0.1){
+        button.style.opacity = 1;
+    }
+});
+
+button.addEventListener("mouseleave", () => {
+    const currentScroll = window.pageYOffset;
+    button.style.opacity = currentScroll/bcheckpoint;
+    if((currentScroll/bcheckpoint) > 0.5){
+        button.style.opacity = currentopacity;
     }
 });
