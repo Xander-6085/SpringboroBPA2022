@@ -39,7 +39,7 @@ span {
 
 .nav {
 	width: 100vw;
-	margin-top: calc(10.5vh + 1px);
+	margin-top: 0;
 	padding: 0;
 	display: table;
 	position: fixed;
@@ -58,9 +58,11 @@ a {
 	text-align: center;
 	border: solid;
 	border-width: 0px;
-	padding-top: 2.5vh;
-	padding-bottom: 2vh;
+	padding-top: 3vh;
+	padding-bottom: 2.5vh;
 	margin-bottom: 1.5vh;
+	line-height: 1.5em;
+	border-bottom: 1px solid;
 }
 
 .nav li:hover {
