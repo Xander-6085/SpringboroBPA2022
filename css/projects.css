@@ -1,9 +1,15 @@
 .proj1{ grid-area: proj1; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj1:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 .proj2{ grid-area: proj2; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj2:hover{height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 .proj3{ grid-area: proj3; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj3:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 .proj4{ grid-area: proj4; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj4:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 .proj5{ grid-area: proj5; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj5:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 .proj6{ grid-area: proj6; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
+.proj6:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
 
 
 .grid-container{
@@ -19,4 +25,14 @@
 h3, p{
     color:white;
     margin: 10px 1vw 10px 1vw;
+    text-align: center;
+}
+
+h3{
+    padding-top: 1vh;
+    font-size: 18pt;
+}
+
+p{
+    transform: translateY(50%);
 }
