@@ -16,7 +16,7 @@ window.addEventListener("scroll", () => {
     }
 });
 
-button.addEventListener("mouseenter", () => {
+button.addEventListener("mouseover", () => {
     if(button.style.opacity > 0.1){
         button.style.opacity = 1;
     }
