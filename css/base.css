@@ -156,10 +156,17 @@ footer p {
 }
 
 .button {
-	position: absolute;
-	-webkit-appearance: button;
+    position: absolute;
+    -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
 
     text-decoration: none;
+    border-radius: 1vw;
+    border: solid;
+    background-color: black;
+}
+
+.button h2 {
+	margin: 1vh 1vh 1vh 1vh;
 }
