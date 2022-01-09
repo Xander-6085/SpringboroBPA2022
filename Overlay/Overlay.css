@@ -178,7 +178,7 @@
         color:black;
         right:0;
         margin: inline 0px;
-        width:2.5%;
+        width:5%;
         height:5%;
         border:0px;
         text-align:right;
@@ -269,8 +269,8 @@
     }
     .switcher{
         background-color:rgb(87, 110, 202);
-        width:2.8%;
-        height:1.8vw;
+        width:20%;
+        height:10vw;
         border-radius:20%;
         padding:3px;
         position:sticky;
