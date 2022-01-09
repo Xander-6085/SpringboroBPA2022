@@ -1,16 +1,16 @@
 @keyframes slidedown{
     0%{-webkit-transform: rotate(0deg); top:0px}
-    25%{ -webkit-transform: rotate(59.0625deg); top:5%}
-    50%{ -webkit-transform: rotate(118.125deg); top:10%}
-    75%{ -webkit-transform: rotate(177.1875deg); top:15%}
-    100%{ -webkit-transform: rotate(236.25deg); top:32%}
+    25%{ -webkit-transform: rotate(59.0625deg); -webkit-transform:top:5%}
+    50%{ -webkit-transform: rotate(118.125deg); -webkit-transform:top:10%}
+    75%{ -webkit-transform: rotate(177.1875deg); -webkit-transform:top:15%}
+    100%{ -webkit-transform: rotate(236.25deg); -webkit-transform:top:32%}
 }
 @keyframes slideup{
     0%{-webkit-transform: rotate(0deg); bottom:0px}
-    25%{ -webkit-transform: rotate(-59.0625deg); bottom:5%}
-    50%{ -webkit-transform: rotate(-118.125deg); bottom:10%}
-    75%{ -webkit-transform: rotate(-177.1875deg); bottom:15%}
-    100%{ -webkit-transform: rotate(-236.25deg); bottom:32%}
+    25%{ -webkit-transform: rotate(-59.0625deg); -webkit-transform:bottom:5%}
+    50%{ -webkit-transform: rotate(-118.125deg); -webkit-transform:bottom:10%}
+    75%{ -webkit-transform: rotate(-177.1875deg); -webkit-transform:bottom:15%}
+    100%{ -webkit-transform: rotate(-236.25deg); -webkit-transform:bottom:32%}
 }
 @keyframes fade{
     0%{opacity:1;}
