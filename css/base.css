@@ -46,6 +46,7 @@ span {
 	table-layout: fixed;
 	margin-bottom: 0px;
 	z-index: 10;
+	font-family: sans-serif;
 }
 a {
     color: black;
@@ -107,6 +108,7 @@ a {
 	margin-top: 50vh;
 	transform: translate(-50%, -50%);
 	text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .scrollUp {
