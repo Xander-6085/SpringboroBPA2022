@@ -3,14 +3,14 @@
     25%{ -webkit-transform: rotate(59.0625deg); top:.25vh}
     50%{ -webkit-transform: rotate(118.125deg); top:.5vh}
     75%{ -webkit-transform: rotate(177.1875deg); top:.75vh}
-    100%{ -webkit-transform: rotate(236.25deg); top:1vh}
+    100%{ -webkit-transform: rotate(236.25deg); top:1.5vh}
 }
 @keyframes slideup{
     0%{-webkit-transform: rotate(0deg); bottom:0px}
     25%{ -webkit-transform: rotate(-59.0625deg); bottom:.25vh}
     50%{ -webkit-transform: rotate(-118.125deg); bottom:.5vh}
     75%{ -webkit-transform: rotate(-177.1875deg); bottom:.75vh}
-    100%{ -webkit-transform: rotate(-236.25deg); bottom:1vh}
+    100%{ -webkit-transform: rotate(-236.25deg); bottom:1.5vh}
 }
 @keyframes fade{
     0%{opacity:1;}
