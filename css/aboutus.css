@@ -2,16 +2,23 @@
 	display: table;
 	table-layout: fixed;
 	width: 100%;
+	padding: 0;
 }
 
 .people li {
         display: table-cell;
-        width: auto;
+	width: auto;
         text-align: center;
         border: solid;
         border-width: 0px;
         padding-top: 10px;
         padding-bottom: 10px;
+}
+
+img {
+	object-fit: cover;
+	width: 15vw;
+	height: 15vw;
 }
 
 main {
