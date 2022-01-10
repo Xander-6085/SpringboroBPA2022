@@ -1,15 +1,15 @@
 @keyframes slidedown{
     0%{-webkit-transform: rotate(0deg); top:0px}
     25%{ -webkit-transform: rotate(59.0625deg); top:.25vh}
-    50%{ -webkit-transform: rotate(118.125deg); top:.66vh}
-    75%{ -webkit-transform: rotate(177.1875deg); top:1vh}
+    50%{ -webkit-transform: rotate(118.125deg); top:.5vh}
+    75%{ -webkit-transform: rotate(177.1875deg); top:.75vh}
     100%{ -webkit-transform: rotate(236.25deg); top:1.5vh}
 }
 @keyframes slideup{
     0%{-webkit-transform: rotate(0deg); bottom:0px}
     25%{ -webkit-transform: rotate(-59.0625deg); bottom:.25vh}
-    50%{ -webkit-transform: rotate(-118.125deg); bottom:.66vh}
-    75%{ -webkit-transform: rotate(-177.1875deg); bottom:1vh}
+    50%{ -webkit-transform: rotate(-118.125deg); bottom:.5vh}
+    75%{ -webkit-transform: rotate(-177.1875deg); bottom:.75vh}
     100%{ -webkit-transform: rotate(-236.25deg); bottom:1.5vh}
 }
 @keyframes fade{
@@ -104,6 +104,7 @@
     text-align:inherit;
     opacity:0;
     z-index:2;
+    font-family: sans-serif;
 }
 .centerbar{
     top:0%;
@@ -111,6 +112,7 @@
     position:fixed;
     z-index:1;
     width:100%;
+    font-family: sans-serif;
     }
     .darkmode{
         color:white;
@@ -184,6 +186,7 @@
         text-align:right;
         position:fixed;
         z-index:1;
+        font-family: sans-serif;
     }
     .menuanimationa{
         position:relative;
