@@ -1,30 +1,27 @@
-.proj1{ grid-area: proj1; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png'); background-size: cover; background-position: center;}
+.proj1{grid-area: proj1; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png'); background-size: cover; background-position: center;}
 .proj1:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png'); background-size: cover; background-position: center; }
-.proj2{ grid-area: proj2; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
-.proj2:hover{height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
-.proj3{ grid-area: proj3; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
-.proj3:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
-.proj4{ grid-area: proj4; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
-.proj4:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
-.proj5{ grid-area: proj5; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
-.proj5:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
-.proj6{ grid-area: proj6; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar.jpeg'); background-size: cover;}
-.proj6:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/solar.jpeg'); background-size: cover;}
+.proj2{ grid-area: proj2; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg'); background-size: cover; background-position: center;}
+.proj2:hover{height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg'); background-size: cover; background-position: center;}
+.proj3{ grid-area: proj3; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg'); background-size: cover; background-position: center;}
+.proj3:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg'); background-size: cover; background-position: center;}
+.proj4{ grid-area: proj4; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png'); background-size: cover; background-position: center;}
+.proj4:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png'); background-size: cover; background-position: center;}
 
 
 .grid-container{
     display: grid;
     grid-template-areas: 
-        'proj1 proj2 proj3'
-        'proj4 proj5 proj6'
+        'proj1 proj2'
+        'proj3 proj4'
     ;
     grid-gap: 3vw;
     padding: 5vh 5vw 5vh 5vw;
 }
 
-h3, p{
+h3, h4, p{
     color:white;
     margin: 10px 1vw 10px 1vw;
+    padding: 0px 0px 0px 0px;
     text-align: center;
 }
 
@@ -34,5 +31,21 @@ h3{
 }
 
 p{
-    transform: translateY(50%);
+    margin-bottom: 0px;
+    transform: translateY(0px);
+    font-size: 14pt;
+}
+
+.citationproj1{
+    margin-left: 10px;
+    position: absolute;
+    bottom: 50%;
+    width: 600px;
+}
+
+.citationproj2{
+    margin-left: 10px;
+    position: absolute;
+    bottom: 5%;
+    width: 600px;
 }
