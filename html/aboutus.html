@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 <html>
-	<head>
+			<!--Mobile Formatting start-->
+		<link href="Overlay/Overlay.css" rel="stylesheet">
+		<style>
+		.bars{
+			right:2%;
+			top:0%;
+			position:fixed;
+			z-index:5;
+		}
+		.darkmode{
+			color:white;
+			background-color:black;
+		}
+		</style>
+		<div id='div6' class='bg'></div>
+		<div id='div10' class='background'></div>
+		
+		  <div id="div4" class="centerbar">Reducing Your Carbon Footprint</div>
+		<button id= 'bu8' class='menuacess bars' onclick='animationplay()'><div id='div1' class='menuanimationa'></div><div id='div2' class='menuanimationb'></div><div id='div3' class='menuanimationc'></div></button>
+		
+		<div id='div5' class='buttonmenutop'><div style='text-align:center'>Menu</div>
+		<!--<button id='switch' class='switcher' onclick='modeswitch()' ><div id='sw2' class='swc'></div></button>-->
+		</div>
+		
+		<button id='b1' class='menubuttons' onclick="window.location.href = 'index.html';">Homepage</button>
+		<button id='b2' class='menubuttons' onclick="window.location.href = 'html/tips.html';">Tips/Tricks</button>
+		<button id='b3' class='menubuttons' onclick="window.location.href = 'html/projects.html';">Initiatives</button>
+		<button id='b4' class='menubuttons' onclick="window.location.href = 'html/blog.html';">Blog</button>
+		<button id='b5' class='menubuttons' onclick="window.location.href = 'https://github.com/Xander-6085/SpringboroBPA2022';">Code</button>
+		<button id='b6' class='menubuttons' >Sources</button>
+		<button id='b7' class='menubuttons'>...</button>
+		
+		<div id='behid' class='placeholder'></div>
+		<script src='Overlay/Overlay.js'></script>
+		
+		<!--Mobile formating end-->
+		
+<head>
 		<!--Include this on every page-->
    		<meta charset="utf-8">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,4 +93,23 @@
 	</body>
    <script src="../Javascript/fadeToBlack.js"></script>
    <script src="../Javascript/scrollButton.js"></script>
+	<!--Mobile Js Start-->
+  <script>
+ 
+    if (document.body.clientHeight>document.body.clientWidth||self.innerHeight>self.innerWidth||document.documentElement.clientHeight>document.documentElement.Width){
+      let top = document.querySelectorAll(".front");
+          for(var i = 0; i < top.length; i++){
+          top[i].style.top = '-100%';
+          }
+    }
+    else{
+    document.getElementById('div4').style.top='-20%';
+    document.getElementById('div10').style.top='-20%';
+    document.getElementById('bu8').style.top='-20%';
+    document.getElementById('div6').style.top='-20%';
+    document.getElementById('para1').style.top='-20%';
+    }
+    </script>
+<!--Mobile Js End-->
+
 </html>
