@@ -28,4 +28,10 @@ figure img {
 
 p {
 	line-height: 1.6;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+h4 {
+	text-align: center;
 }
