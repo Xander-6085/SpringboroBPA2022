@@ -186,3 +186,14 @@ footer p {
     transform: translate(-50%, -50%);
     margin-top: 98.2vh;
 }
+
+.bars{
+    right:2%;
+    top:0%;
+    position:fixed;
+    z-index:5;
+}
+.darkmode{
+    color:white;
+    background-color:black;
+}
