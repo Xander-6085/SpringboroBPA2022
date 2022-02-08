@@ -2,8 +2,10 @@ main {
 	margin-top: 100vh;
 	margin-left: 0px;
 	padding: 1vh 10vw 1vh 10vw;
+	width: 80vw;
 	position: absolute;
 	background-color: white;
+	right: 0px;
 }
 
 h2 {

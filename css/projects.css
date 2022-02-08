@@ -1,12 +1,11 @@
-.proj1{grid-area: proj1; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png'); background-size: cover; background-position: center;}
-.proj1:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png'); background-size: cover; background-position: center; }
-.proj2{ grid-area: proj2; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg'); background-size: cover; background-position: center;}
-.proj2:hover{height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg'); background-size: cover; background-position: center;}
-.proj3{ grid-area: proj3; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg'); background-size: cover; background-position: center;}
-.proj3:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg'); background-size: cover; background-position: center;}
-.proj4{ grid-area: proj4; height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png'); background-size: cover; background-position: center;}
-.proj4:hover{ height: 500px; background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png'); background-size: cover; background-position: center;}
-
+.proj1{grid-area: proj1; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png');}
+.proj1:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png');}
+.proj2{ grid-area: proj2; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg');}
+.proj2:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg');}
+.proj3{ grid-area: proj3; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg');}
+.proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg');}
+.proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
+.proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
 
 .grid-container{
     display: grid;
@@ -16,16 +15,32 @@
     ;
     grid-gap: 3vw;
     padding: 5vh 5vw 5vh 5vw;
+	grid-template-columns: 35vw 35vw;
+	grid-template-rows: 35vw 35vw;
+}
+
+.grid-container div {
+	height: 100%;
+	width: 100%;
+	background-size: cover; 
+	background-position: center;
+	margin: 0px;
+}
+
+.grid-container div:hover {
+	background-size: cover; 
+	background-position: center;
 }
 
 h3, h4, p{
     color:white;
-    margin: 10px 1vw 10px 1vw;
+    margin: 0px 1vw 10px 1vw;
     text-align: center;
+	padding-top: 10px;
 }
 
 h3{
-    padding-top: 1vh;
+    padding-top: 2.5vh;
     font-size: 18pt;
 }
 
@@ -34,16 +49,16 @@ p{
     font-size: 14pt;
 }
 
-.citationproj1{
-    margin-left: 10px;
-    position: absolute;
-    bottom: 50%;
-    width: 600px;
+.grid-container div .citationproj1{
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+	height: 100px;
 }
 
-.citationproj2{
-    margin-left: 10px;
-    position: absolute;
-    bottom: 5%;
-    width: 600px;
+.grid-container div .citationproj2{
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+	height: 100px;
 }
