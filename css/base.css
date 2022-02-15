@@ -146,6 +146,7 @@ footer a {
 footer li {
 	width: 100%;
 	text-align: center;
+	padding-top: 1.5px;
 }
 
 footer ul {
@@ -155,6 +156,8 @@ footer ul {
 
 footer p {
 	margin: 8px 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 16px;
 }
 
 .button {
