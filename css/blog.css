@@ -2,7 +2,7 @@ main {
 	padding: 1vh 0vw 1vh 10vw;
 	width: 80vw;
 	position: relative;
-	background-color: white;
+	background-color: inherit;
 	right: 0px;
 }
 

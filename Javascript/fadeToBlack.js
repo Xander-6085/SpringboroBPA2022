@@ -1,4 +1,4 @@
-const checkpoint = 200;
+const checkpoint = 1000;
  
 window.addEventListener("scroll", () => {
 	const currentScroll = window.pageYOffset;
@@ -8,8 +8,8 @@ window.addEventListener("scroll", () => {
       opacity = 0;
     }
     let top = document.querySelectorAll(".front");
-	let k = 1-opacity;
+	let k = 1.5-opacity;
     for(var i = 0; i < top.length; i++){
-	top[i].style.backgroundColor = "rgba(255,255,255,"+k+")";
+	top[i].style.backgroundColor = "rgba(30,30,30,"+k+")";
     }
 });
