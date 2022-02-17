@@ -1,6 +1,12 @@
+
+
+@font-face {
+    font-family: "cat";
+    src: url("../Marsey-Regular.ttf") format("truetype");
+}
 body {
 	width: 100%;
-	font-family: Garamond, monospace;
+	font-family: "cat";
 	margin: 0px;
 	color: black;
 	min-height: 100%;
@@ -49,7 +55,7 @@ span {
 	table-layout: fixed;
 	margin-bottom: 0px;
 	z-index: 10;
-	font-family: sans-serif, monospace;
+	/*font-family: sans-serif, monospace;*/
 	background-color: rgb(30,30,30,0.5);
 }
 a {
@@ -109,7 +115,7 @@ a {
 	text-align: center;
 	top: 50vh;
 	text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
 }
 
 .scrollUp {
