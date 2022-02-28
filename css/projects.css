@@ -6,17 +6,21 @@
 .proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg');}
 .proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
 .proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
+.proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
+.proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
+.proj6{ grid-area: proj6; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
+.proj6:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
 
 .grid-container{
     display: grid;
     grid-template-areas: 
-        'proj1 proj2'
-        'proj3 proj4'
+        'proj1 proj2 proj3'
+        'proj4 proj5 proj6'
     ;
     grid-gap: 3vw;
     padding: 5vh 5vw 5vh 5vw;
-	grid-template-columns: 35vw 35vw;
-	grid-template-rows: 35vw 35vw;
+	grid-template-columns: 21.3vw 21.3vw;
+	grid-template-rows: 21.3vw 21.3vw;
 }
 
 .grid-container div {
@@ -40,8 +44,8 @@ h3, h4, p{
 }
 
 h3{
-    padding-top: 23vh;
     font-size: 18pt;
+	padding-top: 40%;
 }
 
 p{
