@@ -1,12 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>SpringboroBPA2022 RSS</title>
+		<description>Tips to Reduce Your Carbon Foorprint</description>
+		<language>en-us</language>
+		<link>https://xander-6085.github.io/SpringboroBPA2022/</link>
+		<atom:link href="https://xander-6085.github.io/SpringboroBPA2022/rss.xml" rel="self" type="application/rss+xml"/>
+		<lastBuildDate>March 1st, 2022</lastBuildDate>
 
-<channel>
-<title>Environment RSS</title>
-<description>Tips to Reduce Your Carbon Foorprint</description>
-<language>en-us</language>
-<link></link>
-<atom:link href="" rel="self" type="application/rss+xml"/>
-
-<item>
-<title>Recycle</title>
-<guid></guid>
+		<item>
+			<title>Why go Solar?</title>
+			<link>https://xander-6085.github.io/SpringboroBPA2022/html/blog.html</link>
+			<guid>https://www.mysite.com/?p=584674</guid>
+			<description>Blog post on the benefits of solar energy</description>
+			<pubDate>Mon, January 10 2022</pubDate>
+		</item>
+	</channel>
+</rss>
