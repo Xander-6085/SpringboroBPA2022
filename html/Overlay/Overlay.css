@@ -104,7 +104,7 @@
     text-align:inherit;
     opacity:0;
     z-index:2;
-    font-family: sans-serif;
+    font-family: rubik, sans-serif;
 }
 .centerbar{
     top:0%;
@@ -112,7 +112,7 @@
     position:fixed;
     z-index:1;
     width:100%;
-    font-family: sans-serif;
+    font-family: rubik, sans-serif;
     }
     .darkmode{
         color:white;
@@ -232,6 +232,7 @@
         text-align:center;
         opacity:0;
         z-index:2;
+        font-family: rubik, sans-serif;
     }
     .menubuttons:hover{
         background-color:grey;
