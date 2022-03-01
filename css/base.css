@@ -4,9 +4,13 @@
     font-family: "cat";
     src: url("../Marsey-Regular.ttf") format("truetype");
 }
+@font-face {
+	font-family: "rubik";
+	src: url("../Rubik-VariableFont_wght.ttf") format("truetype")
+}
 body {
 	width: 100%;
-	font-family: "cat";
+	font-family: rubik, sans-serif;
 	margin: 0px;
 	color: black;
 	min-height: 100%;
