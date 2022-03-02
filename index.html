@@ -4,7 +4,7 @@
 <head>
     <!--Include this on every page-->
     <link rel="icon" type="image/png" href="favicon.png">
-    <link href="Overlay/Overlay.css" rel="stylesheet">
+    <link href="html/Overlay/Overlay.css" rel="stylesheet">
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,7 @@
 
 <body>
   <!--mobile-->
+    <div id="mobile">
       <!--Mobile Formatting start-->
       <div id='div6' class='bg'></div>
       <div id='div10' class='background'></div>
@@ -44,12 +45,13 @@
       <button id='b7' class='menubuttons'>...</button>
   
       <div id='behid' class='placeholder'></div>
-      <script src='Overlay/Overlay.js'></script>
+      <script src='html/Overlay/Overlay.js'></script>
   
       <!--Mobile formating end-->
-      
+    </div>
+
     <!--toolbar-->
-    <nav>
+    <nav id="nav">
         <ul class="front nav" style="background-color: rgb(30,30,30);">
             <li onclick="window.location.href = 'index.html';">Home</li>
             <li onclick="window.location.href = 'html/blog.html';">Blog</li>
@@ -106,21 +108,6 @@
         }
     });
 </script>
-<!--Mobile Js Start-->
-<script>
-    if (1==2 && document.body.clientHeight > document.body.clientWidth || self.innerHeight > self.innerWidth || document.documentElement.clientHeight > document.documentElement.Width) {
-        let top = document.querySelectorAll(".front");
-        for (var i = 0; i < top.length; i++) {
-            top[i].style.top = '-100%';
-        }
-    } else {
-        document.getElementById('div4').style.top = '-20%';
-        document.getElementById('div10').style.top = '-20%';
-        document.getElementById('bu8').style.top = '-20%';
-        document.getElementById('div6').style.top = '-20%';
-        document.getElementById('para1').style.top = '-20%';
-    }
-</script>
-<!--Mobile Js End-->
+
 
 </html>

@@ -46,7 +46,7 @@
 }
 @keyframes fadeio8{
     0%{opacity:0;}
-    100%{ opacity:1; top:6%;}
+    100%{ opacity:1; top:6.25%;}
 }
 @keyframes swmove{
     0%{left:0%; border-color:blue; background-color:rgb(39, 65, 168);}
@@ -63,6 +63,28 @@
 @keyframes ftlm{
     0%{background-color:black;color:white;}
     100%{}
+}
+
+@media screen and (min-width:701px) {
+    #mobile{
+        display:none;
+    }
+    #nav{
+        display:block;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #mobile{
+        display:block;
+    }
+    #nav{
+        display:none;
+    }
+}
+
+#mobile{
+    background-color:inherit;
 }
 .background{
     position:fixed;
@@ -104,7 +126,7 @@
     text-align:inherit;
     opacity:0;
     z-index:2;
-    font-family: europe, sans-serif;
+    font-family: rubik, sans-serif;
 }
 .centerbar{
     top:0%;
@@ -112,7 +134,7 @@
     position:fixed;
     z-index:1;
     width:100%;
-    font-family: europe, sans-serif;
+    font-family: rubik, sans-serif;
     }
     .darkmode{
         color:white;

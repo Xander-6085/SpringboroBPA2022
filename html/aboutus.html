@@ -22,12 +22,11 @@
 		<!--<header>
 			<div class="title front"><h1><span>About Us</span></h1></div>
 		</header>-->
-
+		<div id="mobile">
 		<!--Mobile Formatting start-->
 		<div id='div6' class='bg'></div>
 		<div id='div10' class='background'></div>
-		
-		  <div id="div4" class="centerbar">Reducing Your Carbon Footprint</div>
+		<div id="div4" class="centerbar">Reducing Your Carbon Footprint</div>
 		<button id= 'bu8' class='menuacess bars' onclick='animationplay()'><div id='div1' class='menuanimationa'></div><div id='div2' class='menuanimationb'></div><div id='div3' class='menuanimationc'></div></button>
 		
 		<div id='div5' class='buttonmenutop'><div style='text-align:center'>Menu</div>
@@ -46,8 +45,9 @@
 		<script src='Overlay/Overlay.js'></script>
 		
 		<!--Mobile formating end-->
+		</div>
 		
-		<nav><ul class="front nav"><li onclick="window.location.href = '../index.html';">Home</li><li onclick="window.location.href = 'blog.html';">Blog</li><li onclick="window.location.href = 'tips.html';">Tips</li><li onclick="window.location.href = 'projects.html';">Initiative</li><li onclick="window.location.href = 'https://github.com/Xander-6085/SpringboroBPA2022';">Source</li></ul></nav>
+		<nav id="nav"><ul class="front nav"><li onclick="window.location.href = '../index.html';">Home</li><li onclick="window.location.href = 'blog.html';">Blog</li><li onclick="window.location.href = 'tips.html';">Tips</li><li onclick="window.location.href = 'projects.html';">Initiative</li><li onclick="window.location.href = 'https://github.com/Xander-6085/SpringboroBPA2022';">Source</li></ul></nav>
 		<div class="bg1"></div>
 		<h2 class="t">About Us</h2>
 		<div class="citation">Ed! “Springboro High School.” English Wikipedia, 19 June 2009, https://en.wikipedia.org/wiki/Springboro_High_School#/media/File:Springboro_HS_Springboro_OH_USA.JPG. Accessed 4 Jan. 2022.</div>
@@ -84,23 +84,5 @@
 	</body>
    <script src="../Javascript/fadeToBlack.js"></script>
    <script src="../Javascript/scrollButton.js"></script>
-	<!--Mobile Js Start-->
-  <script>
- 
-    if (1==2 && document.body.clientHeight>document.body.clientWidth||self.innerHeight>self.innerWidth||document.documentElement.clientHeight>document.documentElement.Width){
-      let top = document.querySelectorAll(".front");
-          for(var i = 0; i < top.length; i++){
-          top[i].style.top = '-100%';
-          }
-    }
-    else{
-    document.getElementById('div4').style.top='-20%';
-    document.getElementById('div10').style.top='-20%';
-    document.getElementById('bu8').style.top='-20%';
-    document.getElementById('div6').style.top='-20%';
-    document.getElementById('para1').style.top='-20%';
-    }
-    </script>
-<!--Mobile Js End-->
 
 </html>

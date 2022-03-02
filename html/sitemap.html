@@ -29,7 +29,7 @@
             <h1><span>Site Map</span></h1>
         </div>
     </header>-->
-
+    <div id="mobile">
     <!--Mobile Formatting start-->
 		
 		<div id='div6' class='bg'></div>
@@ -54,8 +54,8 @@
 		<script src='Overlay/Overlay.js'></script>
 		
 	<!--Mobile formating end-->
-
-    <nav>
+    </div>
+    <nav id="nav">
         <ul class="front nav">
             <li onclick="window.location.href = '../index.html';">Home</li>
             <li onclick="window.location.href = 'blog.html';">Blog</li>
@@ -99,22 +99,5 @@
 </body>
 <script src="../Javascript/scrollButton.js"></script>
 <script src="../Javascript/fadeToBlack.js"></script>
-       <!--Mobile Js Start-->
-  <script>
- 
-    if (1==2 && document.body.clientHeight>document.body.clientWidth||self.innerHeight>self.innerWidth||document.documentElement.clientHeight>document.documentElement.Width){
-      let top = document.querySelectorAll(".front");
-          for(var i = 0; i < top.length; i++){
-          top[i].style.top = '-100%';
-          }
-    }
-    else{
-    document.getElementById('div4').style.top='-20%';
-    document.getElementById('div10').style.top='-20%';
-    document.getElementById('bu8').style.top='-20%';
-    document.getElementById('div6').style.top='-20%';
-    document.getElementById('para1').style.top='-20%';
-    }
-    </script>
-<!--Mobile Js End-->
+
 </html>
