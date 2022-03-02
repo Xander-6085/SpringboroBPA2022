@@ -6,10 +6,10 @@
 .proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg');}
 .proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
 .proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
-.proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
-.proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
-.proj6{ grid-area: proj6; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
-.proj6:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
+.proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/green.png');}
+.proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/green.png');}
+.proj6{ grid-area: proj6; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/adapt.png');}
+.proj6:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/adapt.png');}
 
 .grid-container{
     display: grid;
