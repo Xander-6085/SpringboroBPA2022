@@ -7,10 +7,14 @@
 @font-face {
 	font-family: "rubik";
 	src: url("../Rubik-VariableFont_wght.ttf") format("truetype")
+} 
+@font-face {
+	font-family: "europe";
+	src: url("../EuropeUnderground_black.ttf") format("truetype")
 }
 body {
 	width: 100%;
-	font-family: rubik, sans-serif;
+	font-family: europe, sans-serif;
 	margin: 0px;
 	color: black;
 	min-height: 100%;
