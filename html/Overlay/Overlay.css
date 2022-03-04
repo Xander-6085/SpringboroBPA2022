@@ -129,7 +129,7 @@
     font-family: rubik, sans-serif;
 }
 .centerbar{
-    top:0%;
+    top: 10px;
     text-align:center;
     position:fixed;
     z-index:2;
