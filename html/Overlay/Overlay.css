@@ -93,7 +93,7 @@
     width:100%;
     left:0;
     background-color:inherit;
-    z-index:1;
+    z-index:2;
     border-color:gray;
     
 }
@@ -125,14 +125,14 @@
     border-width:1px;
     text-align:inherit;
     opacity:0;
-    z-index:2;
+    z-index:3;
     font-family: rubik, sans-serif;
 }
 .centerbar{
     top:0%;
     text-align:center;
     position:fixed;
-    z-index:1;
+    z-index:2;
     width:100%;
     font-family: rubik, sans-serif;
     }
@@ -207,7 +207,7 @@
         border:0px;
         text-align:right;
         position:fixed;
-        z-index:1;
+        z-index:2;
         font-family: europe, sans-serif;
     }
     .menuanimationa{
@@ -253,7 +253,7 @@
         border-width:1px;
         text-align:center;
         opacity:0;
-        z-index:2;
+        z-index:3;
         font-family: rubik, sans-serif;
     }
     .menubuttons:hover{
