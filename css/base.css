@@ -190,7 +190,7 @@ a {
 .scrollUp {
 	background-color: transparent;
 	border: 0;
-	z-index: 200;
+	z-index: 1;
 	position: fixed;
 	background-image: url("../images/arrowbetter.png");
 	background-size: cover;

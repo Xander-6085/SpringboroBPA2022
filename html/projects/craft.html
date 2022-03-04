@@ -23,34 +23,33 @@
             <h1><span>CRAFT</span></h1>
         </div>
     </header>-->
+    <div id="mobile">
+        <!--Mobile Formatting start-->
+        <div id='div6' class='bg'></div>
+        <div id='div10' class='background'></div>
+        <div id="div4" class="centerbar">Reducing Your Carbon Footprint</div>
+        <button id='bu8' class='menuacess bars' onclick='animationplay()'><div id='div1' class='menuanimationa'></div><div id='div2' class='menuanimationb'></div><div id='div3' class='menuanimationc'></div></button>
+    
+        <div id='div5' class='buttonmenutop'>
+            <div style='text-align:center'>Menu</div>
+        </div>
+        <!--<button id='switch' class='switcher' onclick='modeswitch()' ><div id='sw2' class='swc'></div></button>-->
+    
+        <button id='b1' class='menubuttons' onclick="window.location.href = '../../index.html';">Homepage</button>
+        <button id='b2' class='menubuttons' onclick="window.location.href = '../blog.html';">Blog</button>
+        <button id='b3' class='menubuttons' onclick="window.location.href = '../tips.html';">Tips</button>
+        <button id='b4' class='menubuttons' onclick="window.location.href = '../projects.html';">Initiatives</button>
+        <button id='b5' class='menubuttons' onclick="window.location.href = 'https://github.com/Xander-6085/SpringboroBPA2022';">Source</button>
+        <button id='b6' class='menubuttons'>   </button>
+        <button id='b7' class='menubuttons'>   </button>
+    
+        <div id='behid' class='placeholder'></div>
+        <script src='../Overlay/Overlay.js'></script>
+    
+        <!--Mobile formating end-->
+      </div>
 
-    <!--Mobile Formatting start-->
-		
-		
-		<div id='div6' class='bg'></div>
-		<div id='div10' class='background'></div>
-		
-		  <div id="div4" class="centerbar">Reducing Your Carbon Footprint</div>
-		<button id= 'bu8' class='menuacess bars' onclick='animationplay()'><div id='div1' class='menuanimationa'></div><div id='div2' class='menuanimationb'></div><div id='div3' class='menuanimationc'></div></button>
-		
-		<div id='div5' class='buttonmenutop'><div style='text-align:center'>Menu</div>
-		<!--<button id='switch' class='switcher' onclick='modeswitch()' ><div id='sw2' class='swc'></div></button>-->
-		</div>
-		
-		<button id='b1' class='menubuttons' onclick="window.location.href = '../../index.html';">Homepage</button>
-		<button id='b2' class='menubuttons' onclick="window.location.href = '../tips.html';">Tips/Tricks</button>
-		<button id='b3' class='menubuttons' onclick="window.location.href = '../projects.html';">Initiatives</button>
-		<button id='b4' class='menubuttons' onclick="window.location.href = '../blog.html';">Blog</button>
-		<button id='b5' class='menubuttons' onclick="window.location.href = 'https://github.com/Xander-6085/SpringboroBPA2022';">Code</button>
-		<button id='b6' class='menubuttons' >   </button>
-		<button id='b7' class='menubuttons'>   </button>
-		
-		<div id='behid' class='placeholder'></div>
-		<script src='Overlay/Overlay.js'></script>
-		
-	<!--Mobile formating end-->
-
-    <nav>
+    <nav id="nav">
         <ul class="front nav">
             <li onclick="window.location.href = '../../index.html';">Home</li>
             <li onclick="window.location.href = '../blog.html';">Blog</li>
@@ -86,24 +85,7 @@
 <button class="scrollUp" onclick="scrollUp()" title="Scroll to the Top"></button>
 </body>
 
-<script src="../Javascript/scrollButton.js"></script>
-<script src="../Javascript/fadeToBlack.js"></script>
-   <!--Mobile Js Start-->
-  <script>
- 
-    if (1==2 && document.body.clientHeight>document.body.clientWidth||self.innerHeight>self.innerWidth||document.documentElement.clientHeight>document.documentElement.Width){
-      let top = document.querySelectorAll(".front");
-          for(var i = 0; i < top.length; i++){
-          top[i].style.top = '-100%';
-          }
-    }
-    else{
-    document.getElementById('div4').style.top='-20%';
-    document.getElementById('div10').style.top='-20%';
-    document.getElementById('bu8').style.top='-20%';
-    document.getElementById('div6').style.top='-20%';
-    document.getElementById('para1').style.top='-20%';
-    }
-    </script>
-<!--Mobile Js End-->
+<script src="../../Javascript/scrollButton.js"></script>
+<script src="../../Javascript/fadeToBlack.js"></script>
+   
 </html>
