@@ -86,7 +86,7 @@ function sb(){
 }
 //on load to get the dark mode to the right state 
 
-var mode2=localStorage.getItem('modes');
+/* var mode2=localStorage.getItem('modes');
 if (mode2=='0'){
 }
 else if(mode2=='1'){
@@ -108,7 +108,7 @@ else if(mode2=='1'){
     div7.classList.add('darkmode');
     sf();}
     else{localStorage.setItem('modes','1')}
-
+    */
 //menu buttons appearing
 function PlayFunctionf() {
     div1.classList.add('slidedown');
