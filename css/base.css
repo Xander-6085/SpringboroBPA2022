@@ -166,6 +166,11 @@ a {
 	top: 40%;
 }
 
+.bgbox a {
+	color:inherit;
+	text-decoration:none;
+}
+
 .button {
     -webkit-appearance: button;
     -moz-appearance: button;
