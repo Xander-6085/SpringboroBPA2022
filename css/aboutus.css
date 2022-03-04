@@ -28,4 +28,5 @@ h2 {
 .bg1{
         background: linear-gradient(rgb(0,0,0,0.35),rgb(0,0,0,0.35)), url("../images/Springboro_HS_Springboro_OH_USA.jfif");
         background-position: center;
+		background-size: cover;
 }
