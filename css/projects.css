@@ -1,15 +1,15 @@
 .proj1{grid-area: proj1; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png'); min-height: 40vh;}
-.proj1:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png');}
-.proj2{ grid-area: proj2; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg');}
-.proj2:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg');}
-.proj3{ grid-area: proj3; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg');}
-.proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg');}
+.proj1:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png'); min-height: 40vh;}
+.proj2{ grid-area: proj2; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg'); min-height: 40vh;}
+.proj2:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg'); min-height: 40vh;}
+.proj3{ grid-area: proj3; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg'); min-height: 40vh;}
+.proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg'); min-height: 40vh;}
 .proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png'); min-height: 40vh;}
-.proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
-.proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/green.png');}
-.proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/green.png');}
-.proj6{ grid-area: proj6; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/adapt.png');}
-.proj6:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/adapt.png');}
+.proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png'); min-height: 40vh;}
+.proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/green.png'); min-height: 40vh;}
+.proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/green.png'); min-height: 40vh;}
+.proj6{ grid-area: proj6; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/adapt.png'); min-height: 40vh;}
+.proj6:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/adapt.png'); min-height: 40vh;}
 
 .grid-container{
     display: grid;
@@ -48,7 +48,7 @@ h3{
 }
 
 p{
-    margin-bottom: 0px;
+    padding-bottom: 10px;
     font-size: min(1vw, 14px);
 }
 
