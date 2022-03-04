@@ -1,10 +1,10 @@
-.proj1{grid-area: proj1; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png');}
+.proj1{grid-area: proj1; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/naturalogo.png'); min-height: 40vh;}
 .proj1:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/naturalogo.png');}
 .proj2{ grid-area: proj2; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/climatechangechamp.jpg');}
 .proj2:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/climatechangechamp.jpg');}
 .proj3{ grid-area: proj3; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/waterCRAFT.jpg');}
 .proj3:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/waterCRAFT.jpg');}
-.proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png');}
+.proj4{ grid-area: proj4; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unclimate.png'); min-height: 40vh;}
 .proj4:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/unclimate.png');}
 .proj5{ grid-area: proj5; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/green.png');}
 .proj5:hover{background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/green.png');}
@@ -19,8 +19,7 @@
     ;
     grid-gap: 3vw;
     padding: 5vh 5vw 5vh 5vw;
-	grid-template-columns: 21.3vw 21.3vw;
-	grid-template-rows: 21.3vw 21.3vw;
+    grid-template-columns: 21.3vw 21.3vw;
 }
 
 .grid-container div {
@@ -44,13 +43,13 @@ h3, h4, p{
 }
 
 h3{
-    font-size: 18pt;
-	padding-top: 40%;
+	font-size: min(5vw, 24px);
+	padding-top: 20%;
 }
 
 p{
     margin-bottom: 0px;
-    font-size: 14pt;
+    font-size: min(1vw, 14px);
 }
 
 .grid-container div .citationproj1{
