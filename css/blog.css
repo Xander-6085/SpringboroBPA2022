@@ -45,8 +45,9 @@ h3 {
 
 h5 {
 	line-height: 1;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .sig {
